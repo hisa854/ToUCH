@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.navigation{
+    height: 140px;
+    width: 100%;
+    background-color: #2F4538;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation>ul {
+    margin: 0;
+}
+
+.navigation>ul>li {
+    color: white;
+    list-style-type: none;
+}
+
+.navigation>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+
