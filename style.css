@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Zalando+Sans+Expanded');
 
-body {
+body{
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,11 +54,6 @@ main{
     height: auto;
     box-sizing: border-box;
     margin-bottom: 50px;
-}
-.slogan {
-    background-image: url("img/banner.png");
-    height: 880px;
-    width: 100%;
 }
 footer > nav > ul{
     display: flex;
@@ -160,23 +155,23 @@ h1{
     border: none;
     margin: 0 0 80px 0;
 }
-
 .slogan{
+    background-image: url("img/banner.png");
+    height: 880px;
+    width: 100%;
     margin: 0;
     margin-bottom: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.slogan>h1{
+.slogan > h1{
     margin: 0;
     color: white;
     font-size: 100px;
     font-family: 'Zalando Sans Expanded', sans-serif;
-
 }
-
-.categories {
+.categories{
     background-color: #2F4538;
     height: 900px;
     width: 100%;
@@ -185,44 +180,36 @@ h1{
     align-items: center;
     margin-bottom: 400px;
 }
-
-.categories img {
+.categories img{
     border-radius: 20px;
 }
-
-.categories-left {
+.categories-left{
     margin: 100px;
     border-radius: 20px;
 }
-
-.categories-right {
+.categories-right{
     margin-right: 100px;
 }
-
-.top-right {
+.top-right{
     margin-bottom: 55px;
 }
-
-.right-bottom-left {
+.right-bottom-left{
     display: flex;
     gap: 50px;
 }
-
-.top-card {
+.top-card{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
 }
-
-.img-card img { 
+.img-card img{ 
     width: 600px;
     height: auto;
     border-radius: 20px;
     margin: 80px;
 }
-
-.info-card {
+.info-card{
     width: 50%;
     height: auto;
     height: auto;
@@ -230,9 +217,3 @@ h1{
     margin-right: 80px;
     margin-bottom: 80px;
 }
-
-
-
-
-
-
