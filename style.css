@@ -1,4 +1,6 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Zalando+Sans+Expanded');
+
+body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,8 +55,8 @@ main{
     box-sizing: border-box;
     margin-bottom: 50px;
 }
-.slogan{
-    background-color: blue;
+.slogan {
+    background-image: url("img/banner.png");
     height: 880px;
     width: 100%;
 }
@@ -158,3 +160,79 @@ h1{
     border: none;
     margin: 0 0 80px 0;
 }
+
+.slogan{
+    margin: 0;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan>h1{
+    margin: 0;
+    color: white;
+    font-size: 100px;
+    font-family: 'Zalando Sans Expanded', sans-serif;
+
+}
+
+.categories {
+    background-color: #2F4538;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 400px;
+}
+
+.categories img {
+    border-radius: 20px;
+}
+
+.categories-left {
+    margin: 100px;
+    border-radius: 20px;
+}
+
+.categories-right {
+    margin-right: 100px;
+}
+
+.top-right {
+    margin-bottom: 55px;
+}
+
+.right-bottom-left {
+    display: flex;
+    gap: 50px;
+}
+
+.top-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img-card img { 
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    margin: 80px;
+}
+
+.info-card {
+    width: 50%;
+    height: auto;
+    height: auto;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
