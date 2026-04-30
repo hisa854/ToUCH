@@ -412,8 +412,9 @@ h1{
         padding: 0 55px;
         box-sizing: border-box;
     }
+}
 
-    @media(max-width: 650px){
+@media(max-width: 650px){
 
     .slogan > h1{
         margin: 0;
@@ -423,14 +424,12 @@ h1{
         animation-duration: 3s;
         animation-name: slidein;
         }
-
     .categories-left img{
         padding: 0 5px;
         box-sizing: border-box;
         height: 100%;
         width: 100%;
         }
-    }
     .top-right img{
         padding: 0 5px;
         box-sizing: border-box;
@@ -489,3 +488,4 @@ h1{
         max-height: 40px;
     }
 }
+
